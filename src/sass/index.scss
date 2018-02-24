@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navul {
+  li {
+    display: inline;
+    padding: 10px;
+    margin: 0px 5px;
+    border-radius: 5px;
+    -webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    background: #252525;
+
+    a {
+      color: white;  
+    }
+
+    &:hover {
+      background: whitesmoke;
+
+      a {
+        color: #222;
+      }
+    }
+  }
+
+  .li-active {
+      background: whitesmoke;
+
+      a {
+        color: #222;
+      }
+  }
+}
+
+
+
+.App {
+  text-align: center;
+  height: 100vh;
+  background-color: #222;
+  color: white;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 100%;
+}
+
+.App-header {
+  background-color: #319afb;
+  height: 500px;
+  padding: 0px;
+  padding-top: 100px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.App-intro {
+  font-size: large;
+  
+}
